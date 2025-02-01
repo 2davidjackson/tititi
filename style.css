@@ -1,0 +1,162 @@
+   /* Estilo global */
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #f8f8f8;
+    color: #222;
+    line-height: 1.8;
+    overflow-x: hidden; /* Evita o espaço branco lateral */
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Georgia', serif;
+}
+
+nav {
+   
+    background-color: #000000;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap; /* Permite quebra de linha em telas pequenas */
+    padding: 0 10px;
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center; /* Centraliza os itens no celular */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ccc;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.headline {
+    font-family: 'Georgia', serif;
+    font-size: 2.2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+.pr{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    align-items: center;
+    height: 100px; /* altura do container */
+    line-height: 100px; /* deve ser igual à altura para centralizar verticalmente */
+    text-align: center; /* Centraliza horizontalmente */
+  
+ 
+
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.container img,
+.container video {
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+    margin: 15px auto;
+    display:block;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items:center;
+    width:320PX;
+    height:320px;
+    
+}
+
+
+
+.content p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 15px 0;
+    text-align: justify;
+}
+.content h2 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+}
+.highlight {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-left: 5px solid #333;
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+.center {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */
+    height: 100vh;          /* Ajuste a altura do contêiner */
+  }
+  
+  .container h4{
+    display: flex;
+    justify-content: flex-end;
+    
+  }
